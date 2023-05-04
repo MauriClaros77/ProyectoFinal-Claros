@@ -1,0 +1,38 @@
+[
+    {
+        "nombre":"Daniel Montenegro",
+        "nota1": 5,
+        "nota2": 6,
+        "nota3": 8
+    },
+    {
+        "nombre":"Pedro Picapiedra",
+        "nota1": 1,
+        "nota2": 2,
+        "nota3": 3
+    },
+    {
+        "nombre":"Pablo Marmol",
+        "nota1": 6,
+        "nota2": 10,
+        "nota3": 7
+    },
+    {
+        "nombre":"Homero Simpson",
+        "nota1": 2,
+        "nota2": 3,
+        "nota3": 4
+    },
+    {
+        "nombre":"Felix Cat",
+        "nota1": 10,
+        "nota2": 9,
+        "nota3": 9
+    },
+    {
+        "nombre":"Ash Ketchup",
+        "nota1": 6,
+        "nota2": 8,
+        "nota3": 9
+    }
+]

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="capa"></div>
+    <img class="show" src="./assets/loading-gif.gif"></img>
+<div style="display: grid; place-items: center;margin-top: 200px;">
+    <form
+        style="width: 500px;display: flex;flex-direction: column; gap: 20px;background-color: antiquewhite; padding: 20px;"
+        id="box-form">
+        <h3>Agregar alumnos a la base de datos</h3>
+        <div class="form-group">
+            <label for="nombre">Nombre y apellido</label>
+            <input type="text" class="form-control" id="nombre">
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlSelect1">Primer nota</label>
+            <select class="form-control" id="primerSelect">
+                <option value="not">Seleccione una opcion</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlSelect1">Segunda nota</label>
+            <select class="form-control" id="segundoSelect">
+                <option value="not">Seleccione una opcion</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlSelect1">Tercer nota</label>
+            <select class="form-control" id="tercerSelect">
+                <option value="not">Seleccione una opcion</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+        </div>
+        <button type="submit" class="btn btn-primary btn-lg btn-block">Enviar</button>
+        <div class="info-box"></div>
+    </form>
+    <br>
+    <br>
+
+    <form
+        style="width: 500px;display: flex;flex-direction: column; gap: 20px; background-color: aliceblue;padding: 20px;"
+        id="search-form">
+        <h3>Buscar alumno/s por promedio</h3>
+        <div class="form-group">
+            <label for="desde">Desde: </label>
+            <input type="text" class="form-control" id="desde">
+        </div>
+        <div class="form-group">
+            <label for="hasta">Hasta: </label>
+            <input type="text" class="form-control" id="hasta">
+        </div>
+        <button type="submit" class="btn btn-primary btn-lg btn-block">Buscar</button>
+
+    </form>
+    <button type="submit" class="btn btn-secondary btn-lg btn-asc">Ascendente</button>
+    <button type="submit" class="btn btn-secondary btn-lg btn-des">Descendente</button>
+
+
+    <div id="show-filter"></div>
+
+    <div
+    style="width: 500px;display: flex;flex-direction: column; gap: 20px; background-color: aliceblue;padding: 20px;"
+    id="search-form">
+    
+         <button class="btn btn-primary btn-lg btn-prom">Promedio de todos los alumnos</button>
+    </div>
+</div>
+
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
